@@ -1,0 +1,115 @@
+{
+	"id": "E8AB41B8-63C6-EC11-997E-DC9840109182",
+	"createdAt": "2022-04-27T19:53:34.716Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-systemcopy.git",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"com.neptune-software.systemcopy\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"System Copy of Artifacts and Data\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		],
+		"readme": [
+			"==OBJECT STRING==",
+			"# systemcopy\r",
+			"Copy artifacts or table content between P9 systems\r",
+			"\r",
+			""
+		]
+	},
+	"name": "neptunesoftware-dxp-abb-systemcopy",
+	"description": "System Copy of Artifacts and Data",
+	"ver": "22.11.9.1226",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "762B0C2F-64C6-EC11-997E-DC9840109182",
+			"application": "planet9_system_copy",
+			"title": "System Copy",
+			"description": "System Copy"
+		}
+	],
+	"api": [
+		{
+			"id": "BE5A8AFF-63C6-EC11-997E-DC9840109182",
+			"name": "systemcopy",
+			"description": "System Copy",
+			"apiGroup": "487B8DD6-63C6-EC11-997E-DC9840109182"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "CDBE5C1B-C6E8-EC11-B656-0050F2A2304B",
+			"name": "saveUsers",
+			"description": "save system users via SQL"
+		},
+		{
+			"id": "86021402-FDE8-EC11-B656-0050F2A2304B",
+			"name": "test",
+			"description": null
+		},
+		{
+			"id": "EFB7D97B-63C6-EC11-997E-DC9840109182",
+			"name": "save",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "EEB7D97B-63C6-EC11-997E-DC9840109182",
+			"name": "systemcopy",
+			"description": "Used for System Copy App"
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "487B8DD6-63C6-EC11-997E-DC9840109182",
+			"name": "System Copy",
+			"description": null
+		}
+	],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}
