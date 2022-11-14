@@ -50,7 +50,7 @@
 			"id": "762B0C2F-64C6-EC11-997E-DC9840109182",
 			"application": "planet9_system_copy",
 			"title": "System Copy",
-			"description": "System Copy test"
+			"description": "System Copy"
 		}
 	],
 	"api": [
@@ -69,11 +69,6 @@
 			"id": "CDBE5C1B-C6E8-EC11-B656-0050F2A2304B",
 			"name": "saveUsers",
 			"description": "save system users via SQL"
-		},
-		{
-			"id": "86021402-FDE8-EC11-B656-0050F2A2304B",
-			"name": "test",
-			"description": null
 		},
 		{
 			"id": "EFB7D97B-63C6-EC11-997E-DC9840109182",

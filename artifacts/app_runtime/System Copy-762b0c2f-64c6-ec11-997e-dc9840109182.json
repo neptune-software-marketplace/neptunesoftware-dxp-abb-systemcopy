@@ -260,6 +260,79 @@
 									]
 								}
 							]
+						},
+						{
+							"fieldNo": "13f03a89-b2a8-4ffa-817f-9a1cb1971916",
+							"fieldName": "oHBox",
+							"fieldParent": "fca573b3-1a8d-4104-e447-5159234ef65a",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "bd09a7a0-859e-4e1f-e614-06c0028ba58b",
+									"fieldName": "oVBox",
+									"fieldParent": "13f03a89-b2a8-4ffa-817f-9a1cb1971916",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "600px",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "7710a666-a2f7-4710-c35f-0914ffaba6db",
+											"fieldName": "messageStrip",
+											"fieldParent": "bd09a7a0-859e-4e1f-e614-06c0028ba58b",
+											"fieldType": "sap.m.MessageStrip",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "To configure (add, update, remove) remote systems, go to your cockpit and open the 'Remote Systems' app.",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "showIcon",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -1841,10 +1914,10 @@
 			"data": []
 		}
 	],
-	"ver": "22.11.9.1335",
+	"ver": "22.11.14.143",
 	"application": "planet9_system_copy",
 	"title": "System Copy",
-	"description": "System Copy test",
+	"description": "System Copy",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": false,
