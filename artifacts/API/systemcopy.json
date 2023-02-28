@@ -6,7 +6,7 @@
 	"endpoints": [],
 	"paths": [
 		{
-			"id": "6B3AA4A4-0A77-4F43-AEB6-254B611431DA",
+			"id": "6b3aa4a4-0a77-4f43-aeb6-254b611431da",
 			"method": "POST",
 			"path": "/save",
 			"description": "",
@@ -20,10 +20,10 @@
 					"body": []
 				}
 			],
-			"serverScript": "EFB7D97B-63C6-EC11-997E-DC9840109182"
+			"serverScript": "efb7d97b-63c6-ec11-997e-dc9840109182"
 		},
 		{
-			"id": "6D87754F-AA63-47F2-9E90-B2497DE3A817",
+			"id": "6d87754f-aa63-47f2-9e90-b2497de3a817",
 			"method": "POST",
 			"path": "/saveUsers",
 			"description": "",
@@ -37,7 +37,7 @@
 					"body": []
 				}
 			],
-			"serverScript": "CDBE5C1B-C6E8-EC11-B656-0050F2A2304B"
+			"serverScript": "cdbe5c1b-c6e8-ec11-b656-0050f2a2304b"
 		}
 	],
 	"definitions": [],

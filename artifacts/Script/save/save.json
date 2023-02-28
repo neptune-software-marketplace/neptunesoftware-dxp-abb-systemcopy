@@ -9,23 +9,12 @@
 	"name": "save",
 	"ver": "22.11.14.1220",
 	"description": null,
-	"content": [
-		"==OBJECT STRING==",
-		"/**\r",
-		" * Main Logic\r",
-		" */\r",
-		"try {\r",
-		"    await entityManager.save(req.body.table, req.body.data);\r",
-		"    complete();\r",
-		"} catch (e) {\r",
-		"    log.error(e);\r",
-		"    fail();\r",
-		"}"
-	],
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
-	"isTypescript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
 	"jsscriptGroup": "eeb7d97b-63c6-ec11-997e-dc9840109182",
 	"package": "e8ab41b8-63c6-ec11-997e-dc9840109182"
 }
