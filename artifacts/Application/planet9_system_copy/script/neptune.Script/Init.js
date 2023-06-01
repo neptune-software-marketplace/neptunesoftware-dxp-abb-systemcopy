@@ -1,6 +1,8 @@
 tabData.getBinding("items").sort(new sap.ui.model.Sorter("name", false, false));
 inSystemDestination.getBinding("items").sort(new sap.ui.model.Sorter("name", false, false));
 
+//.
+
 $.ajax({
     type: "POST",
     contentType: "application/json",
