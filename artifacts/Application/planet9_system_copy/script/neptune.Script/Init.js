@@ -8,7 +8,7 @@ $.ajax({
     contentType: "application/json",
     url: "/api/functions/Systems/List",
     success: function (data) {
-        data.splice(0, 1, { name: "" })
+        data.splice(0, 0, { name: "" })
         modelinSystemDestination.setData(data);
     },
     error: function (result, status) {
