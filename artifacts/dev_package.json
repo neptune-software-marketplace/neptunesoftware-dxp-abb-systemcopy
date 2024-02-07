@@ -71,16 +71,16 @@
 			"name": "System Copy"
 		}
 	],
-	"category": [
-		{
-			"id": "40968f53-56b7-ed11-a8e0-000d3aba7851",
-			"description": null,
-			"name": "System Add-Ons"
-		}
-	],
+	"category": [],
 	"launchpad": [],
 	"certificates": [],
-	"role": [],
+	"role": [
+		{
+			"id": "25aaaec2-07b1-48f4-ae81-206b713ef4ca",
+			"name": "neptunesoftware-SystemCopy",
+			"description": null
+		}
+	],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
