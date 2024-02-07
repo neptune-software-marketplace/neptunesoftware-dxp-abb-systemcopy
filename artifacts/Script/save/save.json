@@ -9,6 +9,7 @@
 	"name": "save",
 	"ver": "22.11.14.1220",
 	"description": null,
+	"folder": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
